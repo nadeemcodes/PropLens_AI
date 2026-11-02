@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Database files (SQLite)
+*.db
+backend/*.db
+
+# Model artifacts (un-comment if you prefer not to track trained weights in Git)
+# *.pkl
+
+# Frontend dependencies & build caches
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+
+# Vercel deployment artifacts
+.vercel/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+.vercel
